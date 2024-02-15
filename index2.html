@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css" />
+</head>
+<body>
+    <div class="mt-4 w-50 mx-auto">
+        <form id="book-form">
+          <div class="form-group">
+            <label>Uzbek</label>
+            <input type="text" id="uzbekUz" class="form-control" />
+          </div>
+  
+          <div class="form-group">
+            <label>English</label>
+            <input type="text" id="englishEn" class="form-control" />
+          </div>
+  
+          <div class="form-group">
+            <label>Izoh</label>
+            <input type="text" id="commentCo" class="form-control" />
+          </div>
+          <input type="submit" value="Add Word" class="btn btn-warning btn-block" />
+        </form>
+    <table class="table table-striped mt-5 text-center">
+        <thead>
+          <tr>
+            <th>Uzbek</th>
+            <th>English</th>
+            <th>Izoh</th>   
+            <th>O'chirish</th>   
+            <th>O'zgartirish</th>   
+          </tr>
+        </thead>
+        <tbody id="translate_list">
+ 
+        </tbody>
+      </table>
+</div>
+      <script src="script2.js"></script>
+      <script src="translateList.js"></script>
+</body>
+</html>
