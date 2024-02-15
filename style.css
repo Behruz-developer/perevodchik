@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn_td{
+    border: none;
+    background: #ff0000;
+    border-radius: 6px;
+    padding: 5px;
+    color: white;
+
+
+}
+.btn_change{
+    border: none;
+    background: green;
+    border-radius: 6px;
+    padding: 5px 10px;
+    color: white;
+}
