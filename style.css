@@ -19,3 +19,54 @@
     padding: 5px 10px;
     color: white;
 }
+
+.modal11{
+    position: fixed;
+    background: rgba(0, 0, 0, 0.80);
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.modal_content12{
+    background: white;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+span{
+    color: black;
+    font-size: 35px;
+    position: absolute;
+    top: 0;
+    right: 15px;
+    display: inline;
+    cursor: pointer;
+    height: 20px;
+}
+.input_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+
+}
+.input11{
+    width: 400px;
+    padding: 10px 8px;
+    outline: none;
+    border: 1px solid grey;
+    font-size: 16px;
+}
+.button_change{
+    border: none;
+    width: 400px;
+    padding: 14px 0px;
+    background: rgb(79, 205, 79);
+    font-size: 17px;
+}

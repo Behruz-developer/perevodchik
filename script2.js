@@ -3,9 +3,9 @@ const savedLanguages = JSON.parse(localStorage.getItem("languages"));
 const languages = savedLanguages|| [
     {word: 'olma', translate: 'apple', comment: 'vitaminga boy meva'},
     {word: 'kotta', translate: 'big', comment: "Kotta bog'"},
-    {word: 'stakan', translate: 'glass', comment: 'apple'},
-    {word: 'telefon', translate: 'phone', comment: 'apple'},
-    {word: 'daftar', translate: 'copybook', comment: 'apple'},
+    {word: 'stakan', translate: 'glass', comment: ''},
+    {word: 'telefon', translate: 'phone', comment: ''},
+    {word: 'daftar', translate: 'copybook', comment: ''},
     {word: 'kitob', translate: 'book', comment: 'Kitob ilim manbayi'},
     {word: 'ruchka', translate: 'pen', comment: 'yozish uchun'},
     {word: 'koinot', translate: 'space', comment:'katta koinot'},
